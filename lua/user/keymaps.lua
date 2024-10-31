@@ -4,7 +4,7 @@ local opts = { noremap = true, silent = true }
 keymap("n", "<Space>", "", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
-
+keymap("i","jk","<Esc>", { noremap = true, silent = true })
 keymap("n", "<C-i>", "<C-i>", opts)
 
 -- Better window navigation
