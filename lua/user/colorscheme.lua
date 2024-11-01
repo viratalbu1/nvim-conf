@@ -6,12 +6,6 @@ local M = {
   
   function M.config()
    vim.cmd.colorscheme "darkplus"
-
-  -- Add transparency settings
-   -- Step 1: Load the colorscheme to apply all of its default settings
-    -- vim.cmd.colorscheme("darkplus")
-
-    -- Step 2: Override only the background to make it transparent
   end
   
   return M
