@@ -30,7 +30,18 @@ spec("user.extra.tabby")
 spec("user.neoscroll")
 spec("user.illuminate")
 spec("user.ufo")
+spec('user.extra.bfq')
+spec('user.extra.fidget')
+spec('user.extra.dressing')
+spec('user.extra.eyeliner')
+spec('user.extra.colorizer')
 spec("user.transparent")
+spec('user.autopairs')
+spec('user.indentline')
+spec('user.alpha')
+spec("user.gitsigns")
+spec("user.neogit")
+spec('user.project')
 -----------Loading lazy at last once we have already pass all value to the function specs we already defined there -----------
 ----Look into the folder launch.lua for spec function --------
 
