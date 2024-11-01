@@ -5,10 +5,15 @@ local M = {
   
   function M.config()
     local wk = require "which-key"
-    wk.register {
-      ["<leader>e"] = { "<cmd>NvimTreeToggle<CR>", "Explorer" },
-      -- ["<leader>t"] = { "<cmd>NvimTreeFocus<CR>", "Focus NvimTree" },
-    }
+    wk.add(
+      { 
+        { "<leader>e", "<cmd>NvimTreeToggle<CR>",desc = "Explorer" },  -- Toggle file explorer
+        -- ["<leader>t"] = { "<cmd>NvimTreeFocus<CR>", "Focus Explorer" },  -- Optional: Focus on file explorer
+      },
+      {
+       mode = "n"   
+      }
+    )
   
     local icons = require "user.icons"
   
