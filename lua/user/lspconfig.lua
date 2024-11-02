@@ -81,6 +81,7 @@ function M.config()
     "html",
     "tsserver",
     "eslint",
+    "gopls",
     -- "tsserver",
     -- "pyright",
     -- "bashls",
